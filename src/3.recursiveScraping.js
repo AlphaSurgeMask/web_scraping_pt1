@@ -1,3 +1,6 @@
+// This code function doesn't function correctly
+// It is essentially the same as 2.multiPage.js
+
 const cheerio = require("cheerio");
 const axios = require("axios");
 const fs = require("fs");
