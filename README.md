@@ -1,20 +1,36 @@
+# Web scraping part 1
+## Install required npm packages
+```
+npm install
+```
+or
+```
 npm install cheerio
+
 npm install axios
-npm install j2csv
+
+npm install json2csv
+
 npm install fs
+
 npm install puppeteer
 
-//also copy and paste the following so you have a headless chromium
+npm install node-jq --save
+```
 
-##########################################
+## Also run the following for headless chromium
 
-sudo apt-get update
-sudo apt-get install -y \
+```
+sudo apt update
+
+sudo apt upgrade
+
+sudo apt install -y \
   wget \
   ca-certificates \
   fonts-liberation \
   libappindicator3-1 \
-  libasound2 \
+  libasound2t64 \
   libatk-bridge2.0-0 \
   libatk1.0-0 \
   libcups2 \
@@ -26,7 +42,5 @@ sudo apt-get install -y \
   libxcomposite1 \
   libxdamage1 \
   libxrandr2 \
-  xdg-utils \
-  --no-install-recommends
-
-####################################################
+  xdg-utils
+```

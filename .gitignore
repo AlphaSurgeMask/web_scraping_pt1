@@ -1,3 +1,6 @@
+# Data testing folder
+data/
+
 # Logs
 logs
 *.log
