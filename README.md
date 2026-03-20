@@ -14,8 +14,6 @@ npm install json2csv
 npm install fs
 
 npm install puppeteer
-
-npm install node-jq --save
 ```
 
 ## Also run the following for headless chromium
